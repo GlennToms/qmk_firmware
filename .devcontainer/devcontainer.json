@@ -1,0 +1,6 @@
+{
+  "name": "QMK",
+  "build": {
+    "dockerfile": "Dockerfile"
+  }
+}
