@@ -1,0 +1,1 @@
+qmk compile --keyboard corne --keymap default

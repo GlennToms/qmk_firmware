@@ -3,5 +3,6 @@ FROM qmkfm/base_container
 VOLUME /qmk_firmware
 WORKDIR /qmk_firmware
 
-# CMD make all:default
+RUN make git-submodule
+
 CMD /bin/bash

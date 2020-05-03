@@ -56,7 +56,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #define SOFT_SERIAL_PIN D0  // or D1, D2, D3, E6
 #define USE_SERIAL
-#define EE_HANDS
+#define MASTER_LEFT
+// #define EE_HANDS
 
 // #define BACKLIGHT_PIN B7
 // #define BACKLIGHT_BREATHING
