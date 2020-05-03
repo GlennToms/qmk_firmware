@@ -30,9 +30,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT,    KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                         KC_H,    KC_J,    KC_K,    KC_L, KC_QUOT, LSFT_T(KC_ENT),  \
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                      KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, KC_RALT,\
+      KC_LCTL,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                      KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|        |--------+--------+--------+--------+--------+--------+--------|
-                            TO(_TYPING),   TT(_NUMBERS),  TT(_ARROWS),        XXXXXXX,  LT(_NUMBERS, KC_SPC),  KC_RALT \
+                            TO(_TYPING),   TT(_NUMBERS),  TT(_ARROWS),        XXXXXXX,  LT(_NUMBERS, KC_SPC),  LALT_T(KC_PDOT) \
                                       //`--------------------------'        `--------------------------'
 
   ),
@@ -43,9 +43,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                              |--------+--------+--------+--------+--------+--------|
       KC_TRNS, KC_HASH, KC_EQL, KC_MINS, KC_LPRN, KC_RPRN,                                XXXXXXX, KC_4,   KC_5,   KC_6,   KC_SCLN,    KC_TRNS,\
   //|--------+--------+--------+--------+--------+--------|                              |--------+--------+--------+--------+--------+--------|
-      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_LBRC, KC_RBRC,                                KC_0,    KC_1,   KC_2,   KC_3,   XXXXXXX,    XXXXXXX,\
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_LBRC, KC_RBRC,                                KC_0,    KC_1,   KC_2,   KC_3,   XXXXXXX,    KC_TRNS,\
   //|--------+--------+--------+--------+--------+--------+--------|              |--------+--------+--------+--------+--------+--------+--------|
-                            TG(_NUMBERS),  TT(_ARROWS), KC_TRNS,                    KC_TRNS,  KC_TRNS, KC_PDOT \
+                            TG(_NUMBERS),  TT(_ARROWS), KC_TRNS,                    KC_TRNS,  KC_TRNS, KC_TRNS \
                                       //`--------------------------'              `--------------------------'
     ),
 
@@ -67,7 +67,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                              |--------+--------+--------+--------+--------+--------|
       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                                  KC_TRNS, KC_F4,   KC_F5,   KC_F6,   KC_F11,    KC_TRNS,\
   //|--------+--------+--------+--------+--------+--------|                              |--------+--------+--------+--------+--------+--------|
-      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                                KC_TRNS,  KC_F1,   KC_F2,   KC_F3,   KC_F12,    KC_RALT,\
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                                KC_TRNS,  KC_F1,   KC_F2,   KC_F3,   KC_F12,    KC_TRNS,\
   //|--------+--------+--------+--------+--------+--------+--------|              |--------+--------+--------+--------+--------+--------+--------|
                                         TO(_TYPING),  KC_TRNS, KC_TRNS,               KC_TRNS,  KC_TRNS, KC_TRNS \
                                       //`--------------------------'              `--------------------------'
