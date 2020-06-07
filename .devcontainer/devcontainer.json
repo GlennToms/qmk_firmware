@@ -4,5 +4,8 @@
     "dockerfile": "Dockerfile"
   },
   "workspaceMount": "source=${localWorkspaceFolder},target=/qmk_fireware,type=bind,consistency=delegated",
-  "workspaceFolder": "/qmk_fireware"
+  "workspaceFolder": "/qmk_fireware",
+  "runArgs": [
+    "make git-submodule"
+  ]
 }
