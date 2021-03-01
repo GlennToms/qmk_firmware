@@ -33,13 +33,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_LCTL,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                      KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|        |--------+--------+--------+--------+--------+--------+--------|
                                     KC_LALT,  KC_LGUI,  MO(_ARROWS),        MO(_ARROWS),  LT(_NUMBERS, KC_SPC),  KC_LGUI \
-                                      //`--------------------------'        `--------------------------'
+                                      //`--------------------------'        `--------------------------'  
 
   ),
 
   [_NUMBERS] = LAYOUT( \
   //,-----------------------------------------------------.                              ,-----------------------------------------------------.
-      KC_GESC, KC_TRNS, KC_TRNS, KC_TRNS, KC_LCBR, KC_RCBR,                                   XXXXXXX, KC_7,  KC_8,   KC_9,   XXXXXXX,    KC_DEL,\
+      KC_GESC, KC_GRAVE, KC_TRNS, KC_TRNS, KC_LCBR, KC_RCBR,                                   XXXXXXX, KC_7,  KC_8,   KC_9,   XXXXXXX,    KC_DEL,\
   //|--------+--------+--------+--------+--------+--------|                              |--------+--------+--------+--------+--------+--------|
       KC_TRNS, KC_NUHS, KC_EQL, KC_MINS, KC_LPRN, KC_RPRN,                                KC_DOT, KC_4,   KC_5,   KC_6,   KC_SCLN,    KC_TRNS,\
   //|--------+--------+--------+--------+--------+--------|                              |--------+--------+--------+--------+--------+--------|
